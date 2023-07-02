@@ -1,0 +1,14 @@
+.navbar-logout{
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-family: 'Alegreya Sans SC', Alegreya;
+  }
+  
+.navbar-logout:hover {
+    outline: 2.5px solid #E8B2E8;
+    background-color: #6B5B95;
+    color: #F2F2F2;
+  }

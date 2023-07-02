@@ -1,0 +1,170 @@
+
+
+body {
+    font-family: Alegreya;
+    height: 100vh;
+    background-image: url("../../../public/images/disney-castle-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+ 
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 50px;
+
+
+}
+
+.about-game{
+    background-color: rgba(232, 178, 232,0.9);
+    border-radius: .75rem;
+    padding: 50px 50px;
+    margin-bottom: 40px;
+}
+
+.title{
+    padding: 0;
+    margin: 0;
+    font-size: 3.2vw;
+    font-family : 'Alegreya Sans SC';
+    color: #f2f2f2;
+}
+
+.about-game p{
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+    color: #f2f2f2;
+}
+
+
+.evil-name{
+    color: #8B0000;
+}
+
+.ring-name{
+    color:#B76E79;
+}
+
+.final-question{
+    font-family : 'Alegreya Sans SC';
+    font-size: 2.3vw;
+    color: #f2f2f2;
+}
+
+.players-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .players-container h1 {
+    color: #6B5B95 !important;
+    font-size: 3vw;
+  }
+
+  .players-container p{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 70%;
+    }
+  }
+  
+  .top-players {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-players li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  
+  .top-players li:last-child {
+    border-bottom: none;
+  }
+  
+  .top-players li .player-position {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6B5B95;
+    margin-right: 20px;
+  }
+  
+  .top-players li .player-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .top-players li .player-info {
+    flex: 1;
+  }
+  
+  .top-players li .player-info p {
+    margin: 0;
+  }
+  
+  .top-players li .player-info .player-username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .top-players li .player-info .player-victories {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .top-players li .player-username {
+      font-size: 20px;
+    }
+  
+    .top-players li .player-victories {
+      font-size: 16px;
+    }
+  }
+  
+
+button#go-to-game {
+    width: 10rem;
+    background-color: #f2f2f2;
+    color: #6B5B95;;
+    cursor: pointer;
+    font-size: 2vw;
+    padding: .75rem .75rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    font-family: Alegreya;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+button#go-to-game:hover {
+  background-color: #6B5B95;
+  color: #f2f2f2;
+}

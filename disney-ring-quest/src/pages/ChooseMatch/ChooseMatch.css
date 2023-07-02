@@ -1,0 +1,147 @@
+body {
+    background-image: url('../../../public/images/cinderella-castle.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.choose-match-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    padding-bottom: 7%;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container-matches {
+    width: 95%;
+    height: 80%;
+    background-color: rgba(232, 178, 232,0.9);
+    border-radius: 25px;
+    padding-bottom: 5%;
+}
+
+.match {
+    width: 17%;
+    height: 32%;
+    background-color: rgba(232, 178, 232);
+    padding: 5% 5% 5% 5%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.character-image {
+    width: 170px;
+    height: 345px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.match-name, .player  {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.chosen {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #F9EC40;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.join-match-button {
+    margin-top: 15%;
+}
+
+.character-info {
+    margin-bottom: 40px;
+    font-weight:300;
+    font-size: 20px;
+    text-align: center;
+}
+
+.choose-character {
+    margin-bottom: 50px;
+    background-color: #FEF78F;
+    color: #000000;
+    width: 70%;
+    font-weight: bold;
+    border-color: #F9EC40;
+    border-radius: 15px;
+    border-width: 13px;
+    font-size: 20px;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+}
+
+.lobby-button {
+    margin-top: 20%;
+    margin-bottom: 10%px;
+    background-color: #FEF78F;
+    color: #000000;
+    width: 100%;
+    font-weight: bold;
+    border-color: #F9EC40;
+    border-radius: 15px;
+    border-width: 13px;
+    font-size: 20px;
+}
+
+.join-match-button-free {
+    background-color: #6B5B95;
+    color: #f2f2f2;
+    cursor: pointer;
+    font-size: 2vw;
+    padding: .75rem .75rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    font-family: Alegreya;
+    margin-top: 1rem;
+}
+
+.join-match-button-clicked:disabled {
+    background-color: rgba(107, 91, 149,0.5);
+    color: #f2f2f2;
+    cursor: pointer;
+    font-size: 2vw;
+    padding: .75rem .75rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    font-family: Alegreya;
+    margin-top: 1rem;
+}
+
+.create-match-button {
+    margin-bottom: 15%
+}
+
+input {
+    color: #000000;
+    text-align: center
+}
+
+.create-match {
+    width: 20%;
+    height: 32%;
+    background-color: rgba(232, 178, 232);
+    padding: 5% 5% 5% 5%;
+    border-radius: 15px;
+    text-align: center;
+}

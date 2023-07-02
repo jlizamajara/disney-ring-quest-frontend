@@ -1,0 +1,92 @@
+body {
+  font-family: 'Alegreya Sans SC';
+  height: 100vh;
+  background-image: url("../../assets/disney-castle-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 30px;
+}
+
+form {
+  background-color: #6B5B95;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #E8B2E8;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #E8B2E8;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px !important;
+  border: none;
+  margin-top: 5px;
+  color: #6B5B95;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #E8B2E8;
+  color: #6B5B95;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #BFD7EA;
+}
+
+.error {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ff4d4d; /* red */
+  border-radius: 5px;
+  color: #ff4d4d; /* red */
+  background-color: #ffe6e6; /* light red */
+  text-align: center;
+}
+
+.successMsg {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #5cff4d; /* green */
+  border-radius: 5px;
+  color: #2aff86; /* green */
+  background-color: #e9ffe6; /* light green */
+  text-align: center;
+}

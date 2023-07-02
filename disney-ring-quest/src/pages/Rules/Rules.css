@@ -1,0 +1,122 @@
+.rules-page {
+    margin-top: 5%;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.container-rules {
+    width: 95%;
+    height: 150%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgba(232, 178, 232, 0.7);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.container-columns {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.character-image-r {
+    width: 80px;
+    height: 155px;
+    margin-bottom: 25px;
+}
+
+
+.first-case {
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 260px;
+    background-image: url('../../../images/first-case.png');
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+
+.box-side {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.left,
+.right {
+    width: 45%;
+    margin: 20px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.left p,
+.right li {
+    font-size: large;
+}
+
+#lucifer-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/lucifer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hades-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/hades.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gothel-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/gothel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#share-kan-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/share-kan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ursula-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/ursula.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .container-columns {
+        flex-direction: column;;
+    }
+
+    .left,
+    .right {
+        width: 90%;
+    }
+  }

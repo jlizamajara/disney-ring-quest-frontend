@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Alegreya;
+    height: 100vh;
+    background-image: url("../../assets/disney-castle-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+.landing-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 50px;
+
+}
+
+.contents{
+    background-color: rgba(232, 178, 232,0.5);
+    border-radius: .75rem;
+    padding: 50px 50px;
+}
+
+.logo-img{
+    width: 100%;
+}
+
+.contents h1{
+    padding: 0;
+    margin: 0;
+    font-size: 3.8vw;
+    text-shadow: 2px 2px 7px rgba(80, 80, 80, 1)
+}
+
+
+.contents p span{
+    text-shadow: rgb(107, 91, 149) 2px 0px 0px, rgb(107, 91, 149) 1.75517px 0.958851px 0px, rgb(107, 91, 149) 1.0806px 1.68294px 0px, rgb(107, 91, 149) 0.141474px 1.99499px 0px, rgb(107, 91, 149) -0.832294px 1.81859px 0px, rgb(107, 91, 149) -1.60229px 1.19694px 0px, rgb(107, 91, 149) -1.97998px 0.28224px 0px, rgb(107, 91, 149) -1.87291px -0.701566px 0px, rgb(107, 91, 149) -1.30729px -1.5136px 0px, rgb(107, 91, 149) -0.421592px -1.95506px 0px, rgb(107, 91, 149) 0.567324px -1.91785px 0px, rgb(107, 91, 149) 1.41734px -1.41108px 0px, rgb(107, 91, 149) 1.92034px -0.558831px 0px;
+}
+.contents p{
+    padding: 0;
+    margin: 0;
+    font-size: 2.7vw;
+    text-shadow: 2px 2px 7px rgba(80, 80, 80, 1);
+}
+
+.main-page-button {
+    width: 10rem;
+    background-color: #f2f2f2;
+    color: #6B5B95;;
+    cursor: pointer;
+    font-size: 2vw;
+    padding: .75rem .75rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    font-family: Alegreya;
+    margin-top: 1rem;
+}
+
+
+.main-page-button:hover{
+    background-color: #6B5B95;
+    color: #f2f2f2;
+}
+
+@media (min-width: 768px) {
+  .main-page-button {
+    padding: .75rem 1.5rem;
+  }
+}
+

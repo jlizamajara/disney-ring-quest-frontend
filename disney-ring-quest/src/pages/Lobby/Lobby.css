@@ -1,0 +1,169 @@
+body {
+    background-image: url('../../../public/images/cinderella-castle.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.lobby-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    padding-bottom: 7%;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container-lobby {
+    width: 95%;
+    height: 80%;
+    background-color: rgba(232, 178, 232,0.9);
+    border-radius: 25px;
+}
+
+.character {
+    width: 17%;
+    height: 32%;
+}
+
+.character-image {
+    width: 170px;
+    height: 345px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+#Cenicienta {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/cinderella.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Hercules {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/hercules.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Rapunzel {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/rapunzel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Mowgli {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/mowgli.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Ariel {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/ariel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.character-name {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#cind {
+    background-color: #2BACE8;
+}
+
+#herc {
+    background-color: #D16F0C;
+}
+
+#rap {
+    background-color: #AA60F1;
+}
+
+#mow {
+    background-color: #DE0A0A;
+}
+
+#ari {
+    background-color: #0F9F64;
+}
+
+.character-info {
+    margin-bottom: 40px;
+    font-weight:300;
+    font-size: 20px;
+    text-align: center;
+}
+
+.choose-character {
+    margin-bottom: 50px;
+    background-color: #FEF78F;
+    color: #000000;
+    width: 70%;
+    font-weight: bold;
+    border-color: #F9EC40;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 20px;
+}
+
+.choose-character-disabled {
+    margin-bottom: 50px;
+    background-color: #faf7cb;
+    color: #000000;
+    width: 70%;
+    font-weight: bold;
+    border-color: #F9EC40;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 20px;
+}
+
+.choose-character-disabled:hover {
+    background-color: #faf7cb;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+}
+
+.play-button {
+    margin-bottom: 50px;
+    background-color: #FEF78F;
+    color: #000000;
+    width: fit-content;
+    font-weight: bold;
+    border-color: #F9EC40;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 20px;
+}
+
+.chosen-character {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 35%;
+    margin-bottom: 15%;
+    color: #A4F94F;
+}

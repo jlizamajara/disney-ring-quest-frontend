@@ -1,0 +1,186 @@
+body {
+    background-image: url('../../../public/images/cinderella-castle.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.game-page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 98%;
+    height: 150%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #E8B2E8;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.item-a {
+    background-color: #41457F;
+    grid-area: header;
+    padding-top: 20px;
+    padding-bottom: 20%;
+    padding-left: 5px;
+    border-radius: 15px;
+}
+
+.item-b {
+    grid-area: main;
+    background-color: #6B5B95;
+    border-radius: 15px;
+}
+
+.item-c {
+    background-color: #41457F;
+    grid-area: sidebar;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.turn {
+    color: #F9EC40;
+    font-size: 35px;
+    text-align: center;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+}
+
+.throw-dice {
+    margin-top: 5px;
+    background-color: #F9EC40;
+    color: #41457F;
+    font-weight: bold;
+}
+
+.dice-frame {
+    margin-top: 15px;
+    margin-left: 10%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    width: 80%;
+    height: auto;
+    background-color: #6B5B95;
+}
+
+.item-d {
+    background-color: #41457F;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.sub-item-d {
+    font-weight: medium;
+    background-color: #6B5B95;
+    color: #ffffff;
+    width: 80%;
+    height: 87%;
+}
+
+.my-character-info {
+    font-size: 13px;
+}
+
+.title-character {
+    font-size: 25px;
+}
+
+.my-grilla {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 22% 22% 22% 22%;
+    grid-template-areas: 
+    "header header header sidebar"
+    "header header header sidebar"
+    "header header header sidebar"
+    "main main main footer";
+    column-gap: 4%;
+    row-gap: 4%;;
+}
+
+.my-grilla-2 {
+    display: grid;
+    grid-template-columns: repeat(10, 7.5%);
+    grid-template-rows: repeat(6, 15%);
+    column-gap: 2.7%;
+    row-gap: 2%;
+    grid-template-areas: 
+    "case empty case case case empty case case case empty"
+    "case empty case empty case empty case empty case empty"
+    "case empty case empty case empty case empty case empty"
+    "case empty case empty case empty case empty case empty"
+    "case empty case empty case empty case empty case empty"
+    "case case case empty case case case empty case case"
+}
+
+.header, .case, .footer {
+    background-color: #BBA468;
+    width: 65px;
+    height: 65px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.empty {
+    width: 65px;
+    height: 65px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-player-character {
+    width: 25px;
+    height: 50px;
+    border-color: none;
+    margin-top: 15%
+}
+
+.dice-image {
+    width: 150px;
+    height: 150px;
+}
+
+.event-character-image {
+    height: 120px;
+    width: 15%;
+    padding-top: 10px;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-event {
+    width: 100px; 
+    height: 120px; 
+    object-fit: cover; 
+}
+
+.not-plays-yet {
+    align-items: center;
+    text-align: center;
+}
+
+.button-continue {
+    background-color: #A4F94F;
+    color: black
+}

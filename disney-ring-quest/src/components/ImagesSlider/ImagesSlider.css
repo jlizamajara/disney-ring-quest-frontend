@@ -1,0 +1,15 @@
+.images-slider{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 5%;
+}
+
+.images-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

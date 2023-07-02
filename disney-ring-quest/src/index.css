@@ -1,0 +1,107 @@
+body {
+  font-family: 'Alegreya Sans SC';
+}
+/* NavBar */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #F2F2F2;
+}
+
+header {
+  background: #6B5B95;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  padding: 10px 50px;
+  max-width: 100%;
+  max-height: 13vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-item{
+  list-style: none;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.navbar-login{
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.navbar-login:hover {
+  outline: 2.5px solid #E8B2E8;
+  background-color: #6B5B95;
+  color: #F2F2F2;
+}
+
+.navbar-link {
+  font-size: 1.5vw;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-item:hover > .navbar-link  {
+  outline: 2.5px solid #E8B2E8;
+  background-color: #6B5B95;
+  color: #F2F2F2;
+}
+
+.dropdown-navbar-icon{
+  display: none;
+}
+
+@media (max-width: 850px) {
+
+  .navbar-login{
+    display: flex;
+  }
+  .navbar-items-container{
+    display: none;
+  }
+  .navbar-items-dropdown{
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #6B5B95;
+    left: 0%;
+    width: 100%;
+    top:28px;
+    
+  }
+  .navbar-item{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    font-size: 1.5vw;
+    transition: all 0.5 ease-in-out;
+  }
+  
+  .dropdown-navbar-icon{
+    display: block;
+    font-size: 1.5vh;
+    border: none;
+    outline: none;
+    top: 10px;
+    left: 0;
+    right: 10px;
+    background-color: #6B5B95;
+  }
+
+}
